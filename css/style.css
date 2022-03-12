@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:1140px;
+	margin:0px auto;
+}
+header{
+	width:100%;
+	float:left;
+	position:fixed;
+	top:0;/*bottom hole niche fixed thakhto header*/
+	background:lightgrey;
+	padding:25px 0px;
+}
+.logo{
+	
+	width:30%;
+	float:left;
+}
+.logo img{
+	width:50px;
+	display:block;
+}
+.menu{
+	width:70%;
+	float:left;
+}
+nav ul{
+	/*ul er cinho dhur korar jnno*/
+ list-style:none;
+}
+nav ul li{
+display:inline-block;/*home,about,portfolio,gallery
+pasha pasho boshanor jnno*/
+margin:20px 45px;/*egular char pashe jayga rakhar jnno*/
+}
+nav ul li a{
+text-decoration:none;/*a href attribute er nicher
+nicher under line uthanor jnno*/ 
+text-transform: uppercase;
+background:maroon;
+color:white;
+padding:5px 20px;
+}
+.banner{
+width:100%;
+float:left;
+}
+.banner-one{
+	background-color:black;
+	height:450px;
+	width:33.33%;
+	float:left;
+
+}
+.banner-two{
+	background-color:green;
+	height:450px;
+	width:33.33%;
+	float:left;
+}
+.banner-three{
+	background-color:blue;
+	height:450px;
+	width:33.33%;
+	float:left;
+}
+.portfolio{
+width:100%;
+float:left;
+}
+.portfolio-one{
+	background-color:orange;
+	height:450px;
+	width:50%;
+	float:left;
+
+}
+.portfolio-two{
+	background-color:black;
+	height:450px;
+	width:50%;
+	float:left;
+}
+.portfolio-img{
+background-color:maroon;
+	height:450px;
+	width:50%;
+	float:left;
+}
+.portfolio-container{
+	background-color:cyan;
+	height:450px;
+	width:50%;
+	float:left;
+}
+.gallery{
+width:100%;
+float:left;
+}
+.gallery-one{
+	background-color:black;
+	height:450px;
+	width:25%;
+	float:left;
+
+}
+.gallery-two{
+	background-color:green;
+	height:450px;
+	width:25%;
+	float:left;
+}
+.gallery-three{
+	background-color:red;
+	height:450px;
+	width:25%;
+	float:left;
+}
+.gallery-four{
+	background-color:orange;
+	height:450px;
+	width:25%;
+	float:left;
+}
+footer{
+	width:100%;
+	float:left;
+	padding:25px 0px;
+
+}
+.copyright{
+	width:50%;
+	float:left;
+}
+.copyright h2{
+    text-align:center;
+    font-size:22px;
+}
+.social-icon{
+ width:50%;
+ float:left;
+}
+.social-icon ul{
+list-style:none;
+}
+.social-icon ul li{
+display:inline-block;
+margin:10px 20px;
+}
+.social-icon ul li a{
+
+}
+.fa.fa-facebook{
+	background:#087AE9;
+	color:#fff;
+	padding:5px 10px;
+	border-radius: 30px;
+	transition:0.4s ease-in-out;
+}
+.fa.fa-instagram{
+	background:#DC2A77;
+	color:#fff;
+	padding:5px 10px;
+}
+.fa.fa-linkedin{
+	background:#0077B5;
+	color:#fff;
+	padding:5px 10px;
+}
+.fa.fa-facebook:hover{
+	transform: rotate(360deg);
+}
